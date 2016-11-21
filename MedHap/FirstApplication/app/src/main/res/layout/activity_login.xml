@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#292258">
+
+<TextView
+    android:layout_width="500dp"
+    android:layout_height="100dp"
+    android:layout_marginTop="100dp"
+    android:layout_gravity="center"
+    android:text="sign in"
+    android:fontFamily="sans-serif"
+    android:textColor="#addde8"
+    android:textSize="70dp"
+    android:textAlignment="center"/>
+
+<!-- The next EditText immediately following must exist to preserve function
+    for reasons undetermined. It serves no other visual function. Leave
+    in code.-->
+<EditText
+    android:layout_width="1dp"
+    android:layout_height="1dp"
+    android:layout_gravity="center_horizontal"
+    android:textAlignment="center"
+
+    android:inputType="text"
+    android:textColorHint="#addde8"
+    android:fontFamily="sans-serif"
+    android:textSize="25dp"
+    android:textColor="#addde8" />
+<EditText
+    android:id="@+id/email"
+    android:layout_width="500dp"
+    android:layout_height="50dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="1dp"
+    android:hint="email"
+    android:textAlignment="center"
+    android:inputType="text"
+    android:background="#393268"
+    android:textColorHint="#addde8"
+    android:fontFamily="sans-serif"
+    android:textSize="40dp"/>
+<EditText
+    android:id="@+id/password"
+    android:layout_width="500dp"
+    android:layout_height="50dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="20dp"
+    android:hint="password"
+    android:textAlignment="center"
+    android:inputType="textPassword"
+    android:background="#393268"
+    android:textColorHint="#addde8"
+    android:fontFamily="sans-serif"
+    android:textSize="40dp"/>
+<Button
+    android:id="@+id/btnLogin"
+    android:layout_width="500dp"
+    android:layout_height="50dp"
+    android:layout_marginTop="20dp"
+    android:layout_gravity="center_horizontal"
+    android:textAllCaps="false"
+    android:text="log in"
+    android:fontFamily="sans-serif"
+    android:background="#addde8"
+    android:textColor="#393268"
+    android:textSize="40dp"/>
+</LinearLayout>

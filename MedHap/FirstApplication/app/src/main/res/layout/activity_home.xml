@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#292258">
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="180dp"
+        android:text="klass"
+        android:textColor="#addde8"
+        android:textSize="150dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:background="#292258"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif"/>
+
+    <Button android:id="@+id/btn_login"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="log in"
+        android:fontFamily="sans-serif"
+        android:textAllCaps="false"
+        android:background="#addde8"
+        android:textColor="#393268"
+        android:textSize="60dp"/>
+
+    <Button android:id="@+id/signup"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif"
+        android:text="sign up"
+        android:textAllCaps="false"
+        android:background="#addde8"
+        android:textColor="#393268"
+        android:textSize="60dp"/>
+
+</LinearLayout>
